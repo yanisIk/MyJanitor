@@ -6,7 +6,6 @@
 
 meteor-platform
 iron:router
-twbs:bootstrap
 accounts-password
 aldeed:autoform
 underscore
@@ -38,3 +37,9 @@ arkham:comments-ui
 ryw:blog
 erasaur:notification-badge
 useraccounts:core
+aslagle:reactive-table
+meteorhacks:subs-manager
+less
+mizzao:jquery-ui
+useraccounts:iron-routing
+yasinuslu:blaze-meta

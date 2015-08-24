@@ -105,6 +105,8 @@ meteortoys:toypro@0.4.2
 minifiers@1.1.5
 minimongo@1.0.8
 mizzao:bootboxjs@4.4.0
+mizzao:build-fetcher@0.2.0
+mizzao:jquery-ui@1.11.4
 mobile-status-bar@1.0.3
 momentjs:moment@2.10.6
 mongo@1.1.0
@@ -141,13 +143,14 @@ tap:i18n@1.5.1
 templating@1.1.1
 tmeasday:publish-counts@0.6.0
 tracker@1.0.7
-twbs:bootstrap@3.3.5
 ui@1.0.6
 underscore@1.0.3
 url@1.0.4
 useraccounts:bootstrap@1.12.1
 useraccounts:core@1.12.1
+useraccounts:iron-routing@1.12.1
 utilities:avatar@0.7.15
 vsivsi:file-collection@1.1.5
 webapp@1.2.0
 webapp-hashing@1.0.3
+yasinuslu:blaze-meta@0.3.1

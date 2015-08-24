@@ -1,0 +1,3 @@
+Template.adminDashboard.rendered = function() {
+
+};

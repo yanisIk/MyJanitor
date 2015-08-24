@@ -1,0 +1,104 @@
+<template name="adminDashboard">
+  
+  <div class="row">
+	  <div class="col-md-4 col-sm-6 col-xs-12">
+	      <div class="info-box">
+	        <span class="info-box-icon bg-aqua"><i class="fa fa-envelope-o"></i></span>
+	        <div class="info-box-content">
+	          <span class="info-box-text">Late payments</span>
+	          <span class="info-box-number">5</span>
+	        </div><!-- /.info-box-content -->
+	      </div><!-- /.info-box -->
+	   </div>
+
+		<div class="col-md-4 col-sm-6 col-xs-12">
+			<div class="info-box">
+			  <!-- Apply any bg-* class to to the icon to color it -->
+			  <span class="info-box-icon bg-red"><i class="fa fa-flag-o"></i></span>
+			  <div class="info-box-content">
+			    <span class="info-box-text">Unresolved tickets</span>
+			    <span class="info-box-number">5</span>
+			  </div><!-- /.info-box-content -->
+			</div><!-- /.info-box -->
+		</div>
+	</div>
+
+	<!-- Left col -->
+	<div class="col-md-4">
+
+	<div class="box box-solid box-primary">
+                
+                <div class="box-header with-border">
+                  <h3 class="box-title">Latest payments</h3>
+                </div><!-- /.box-header -->
+                
+                <div class="box-body">
+                  <ul class="products-list product-list-in-box">
+                    
+                    <li class="item">
+                      <div class="product-info">
+                        <a href="javascript::;" class="product-title">3205 avenue Linton #1 <span class="label label-success pull-right">$625</span></a>
+                      </div>
+                    </li><!-- /.item -->
+                  </ul>
+                </div><!-- /.box-body -->
+                <div class="box-footer text-center">
+                  <a href="/payments" class="uppercase">View All Payments</a>
+                </div><!-- /.box-footer -->
+        </div>
+
+	</div>
+	<!-- END Left col -->
+
+	<!-- Right col -->
+	<div class="col-md-4">
+
+		<div class="box box-solid box-warning">
+                
+                <div class="box-header with-border">
+                  <h3 class="box-title">Recently Added Tickets</h3>
+                </div><!-- /.box-header -->
+                
+                <div class="box-body">
+                  <ul class="products-list product-list-in-box">
+                    
+                    <li class="item">
+                      <div class="product-info">
+                        <a href="javascript::;" class="product-title">Lavabo coule <span class="label label-danger pull-right">UNSOLVED</span></a>
+                        <span class="product-description">
+                          Type: Plomberie, 3205 avenue Linton #1
+                        </span>
+                      </div>
+                    </li><!-- /.item -->
+
+                    <li class="item">
+                      <div class="product-info">
+                        <a href="javascript::;" class="product-title">Lavabo coule <span class="label label-warning pull-right">IN PROGRESS</span></a>
+                        <span class="product-description">
+                          Type: Plomberie, 3205 avenue Linton #1
+                        </span>
+                      </div>
+                    </li><!-- /.item -->
+
+                    <li class="item">
+                      <div class="product-info">
+                        <a href="javascript::;" class="product-title">Lavabo coule <span class="label label-success pull-right">SOLVED</span></a>
+                        <span class="product-description">
+                          Type: Plomberie, 3205 avenue Linton #1
+                        </span>
+                      </div>
+                    </li><!-- /.item -->
+
+                  </ul>
+                </div><!-- /.box-body -->
+                <div class="box-footer text-center">
+                  <a href="/tickets" class="uppercase">View All Tickets</a>
+                </div><!-- /.box-footer -->
+        </div>
+
+	</div>
+	<!-- END Right col -->
+
+
+
+</template>
